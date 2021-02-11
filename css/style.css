@@ -1829,11 +1829,14 @@ ul.location_icon span {
 .book_container {
   display: flex;
   flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .image_container {
   padding: 3%;
   display: block;
+ 
 }
 .image_container:hover .overlay {
   opacity: 1;
@@ -1862,7 +1865,8 @@ ul.location_icon span {
 .event {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
   
 }
 
@@ -1877,6 +1881,7 @@ ul.location_icon span {
 .details {
   flex: 60%;
   margin-top: 15%;
+  margin-right: 10%;
   padding: 0;
 }
 
